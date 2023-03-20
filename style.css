@@ -1,0 +1,63 @@
+ /* Top section */
+.top-banner {
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+    background-color: #eeeeee;
+}
+
+
+.logo {
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* I saw on figma that the 'Quotebook' logo was an image. 
+Do you think that it's possible to import that so it shows up exactly as you had it on figma? */
+
+a { 
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+
+
+/* Quote box section */
+.main-quotebox{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid black;
+    width: 50%;
+    height: 50%;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
+
+
+
+/* Footer section */
+/* Need to remember how to make it snap to the bottom of the page.... i forgot. */
+footer {
+    background-color: #7798d9;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+}
