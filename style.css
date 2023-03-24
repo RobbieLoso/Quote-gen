@@ -24,14 +24,17 @@ a {
 .main-quotebox{
     display: flex;
     justify-content: center;
-    height: 500px;
+    align-items: center;
+     height: 500px;
+     color: white;
 }
 
 .quote-card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 2px solid black;
+    border: none;
+    background-image: linear-gradient(to right, #cfe2f3 , #748dc5 ) ;
     width: 50%;
     height: 50%;
 }
@@ -50,12 +53,29 @@ a {
 
 /* Footer section */
 /* Need to remember how to make it snap to the bottom of the page.... i forgot. */
+/* I'm still trying to figure out the snap part. I added absolute positioning but i dont think thats helping */
 footer {
     background-color: #7798d9;
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    color: #4b6cb7;
+    /* position: absolute;
+    bottom: 0; */
+}
+.social-media{
+display: flex;
+align-items: center;
+}
+
+
+
+#github-logo{
+    height: 50px;
+}
+#linkedin-logo{
+    height: 65px;
 }
 
 button {
