@@ -1,0 +1,17 @@
+.top-banner {
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+    background-color: #eeeeee;
+}
+
+footer {
+    background-color: #7798d9;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4b6cb7;
+    /* position: absolute;
+    bottom: 0; */
+}
