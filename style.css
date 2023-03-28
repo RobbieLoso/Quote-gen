@@ -58,10 +58,12 @@ border-radius: 50%;
 
 }
 
-button:hover {
-    /* width: 50px;
-    height: 50px; */
-    transform: rotate(360deg);
+button img:hover {
+    width: 50px;
+    height: 50px;
+    transition: transform .25s ease;
+    transform: scale(1.25);
+    /* transform: rotate(360deg); */
 }
 button{
     /* height: 50px;
@@ -72,7 +74,7 @@ button{
     
     /* color: #82c3f7; */
     padding: px;
-    transition: width .5s, height .5s, transform .25s;
+    transition: width 1s, height 1s, transform 1s;
 }
 
 .quote-card {
@@ -80,9 +82,11 @@ button{
     flex-direction: column;
     justify-content: space-around;
     border: none;
+    border-radius: 5%;
     background-image: linear-gradient(to right, #cfe2f3 , #748dc5 ) ;
     width: 50%;
-    height: 50%;
+    height: 95%;
+    box-shadow: 10px 10px 5px gray;
 }
 
 .quote-author {
@@ -91,7 +95,9 @@ button{
 }
 
 
-
+.card-buttons {
+    display: flex;
+}
 
 
 
@@ -104,11 +110,14 @@ footer {
     background-color: #7798d9;
     height: 80px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: center ;
+    /* justify-content: center; */
     align-items: center;
     color: #4b6cb7;
-    /* position: absolute;
-    bottom: 0; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 /* .social-media{
 display: flex;
