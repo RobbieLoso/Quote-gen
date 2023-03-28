@@ -36,6 +36,8 @@ a {
 body {
     max-width: 100%;
     margin-top: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
 }
 
 .about-us-section {
