@@ -5,7 +5,7 @@
     max-width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
 }
 
 .logo {
@@ -34,12 +34,39 @@ a {
 
 /* About us Introduction Body */
 body {
+    margin: 0;
+    position: relative;
     max-width: 100%;
-    margin-top: 0px;
     font-family: "Poppins", sans-serif;
     font-size: 13px;
 }
 
+/* Wave Background */
+.custom-shape-divider-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    opacity: 0.5;
+}
+
+.custom-shape-divider-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 387px;
+    transform: rotateY(180deg);
+    opacity: 0.5;
+}
+
+.custom-shape-divider-top .shape-fill {
+    fill: #4B6CB7;
+}
+
+/* About us Section */
 .about-us-section {
     width: 50%;
     margin: auto;
@@ -117,21 +144,21 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #4b6cb7;
+    color: black;
     position: relative;
     bottom: 0;
     width: 100%;
     margin-top: 70px;
 }
 
-.social-media{
+/* .social-media{
     display: flex;
     align-items: center;
-    }
+    } */
 
-#github-logo{
+/* #github-logo{
     height: 50px;
 }
 #linkedin-logo{
     height: 65px;
-}
+} */
