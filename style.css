@@ -42,38 +42,31 @@ a {
      color: white;
 }
 
-.buttons{
+.interact-buttons-section {
     display: flex;
     flex-direction: column;
-    
 }
+
+.interact-buttons{
+     border-radius: 50%;
+}
+
 
 button  img {
     display: flex;
     justify-content: center;
-
-width: 50px;
-border-radius: 50%;
-
-
+    width: 60px;
 }
 
 button img:hover {
-    width: 50px;
-    height: 50px;
     transition: transform .25s ease;
     transform: scale(1.25);
-    /* transform: rotate(360deg); */
 }
+
 button{
-    /* height: 50px;
-    width: 50px;
-    border-radius: 50%; */
-    margin: 10px;
-    background-color: white;
-    
-    /* color: #82c3f7; */
-    padding: px;
+    background: none;
+    border: none;
+    margin-top: ;
     transition: width 1s, height 1s, transform 1s;
 }
 
@@ -94,12 +87,10 @@ button{
     justify-content: end;
 }
 
-
-.card-buttons {
+.forward-button-section{
     display: flex;
+    justify-content: center;
 }
-
-
 
 
 
@@ -126,13 +117,3 @@ align-items: center;
 
 
 
-#github-logo{
-    height: 50px;
-}
-#linkedin-logo{
-    height: 65px;
-}
-
-button {
-    border: none;
-}
