@@ -1,6 +1,6 @@
 /* NAVBAR SECTION */
 .top-banner {
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     display: flex;
     max-width: 100%;
     justify-content: space-between;
@@ -45,28 +45,51 @@ body {
 
 .sub-headings {
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     width: 20%;
     text-align: center;
 }
 
 .introduction {
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     width: 70%;
     text-align: center;
 }
 
 /* Individual Profile Cards section */
-.our-story-card {
+.our-story-container {
     margin: auto;
     max-width: 55%;
+    position: relative;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 
-.profile-cards {
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headshot-card {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 200px;
+    height: 200px;
     background-color: #4B6CB7;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+#profile-cards {
+    padding: 20px;
+    align-items: center;
+    background-color: #4B6CB7;
+    border-radius: 16px;
 }
 
 .profile-info {
@@ -75,8 +98,13 @@ body {
 }
 
 .headshot-img {
-    border-radius: 100%;
-    height: 200px;
+    position: relative;
+    bottom: 71px;
+    right: 2px;
+    height: 270px;
+    width: 200px;
+    border-radius: 42%;
+    z-index: 1;
 }
 
 
