@@ -1,7 +1,7 @@
 /* NAVBAR SECTION */
 .top-banner {
-    max-width: 100%;
     display: flex;
+        max-width: 100%;
         justify-content: space-between;
         align-items: center;
     background-color: #f1f1f1;
@@ -23,9 +23,7 @@
     width: 15%;
     display: flex;
     justify-content: space-around;
-    
 }
-
 /* END OF NAVBAR SECTION*/
 
 /* About us Introduction Body */
@@ -35,20 +33,6 @@ body {
     margin-top: 0px;
 }
 
-.profile-cards {
-    max-width: 100%;
-    display: flex;
-}
-
-.headshots {
-    max-width: 100%;
-    display: flex;
-}
-
-img {
-    
-}
-
 
 /* Start of footer */
 footer {
@@ -56,9 +40,12 @@ footer {
     background: linear-gradient(10deg,#4B6CB7, #5F2C82);
     height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: #4b6cb7;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-media{
