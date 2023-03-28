@@ -1,17 +1,30 @@
  /* Top section */
 .top-banner {
     display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        max-width: 100%;
     background-color: #eeeeee;
 }
 
 
 .logo {
-font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 70px;
+    margin-left: 5%;
+}
+
+.Quotebook-Icon {
+    width: 60%;
+    padding-top: 15px;
 }
 /* I saw on figma that the 'Quotebook' logo was an image. 
 Do you think that it's possible to import that so it shows up exactly as you had it on figma? */
+
+.navbar{
+    margin-right: 5%;
+}
+
+
 
 a { 
     text-decoration: none;
@@ -34,18 +47,30 @@ a {
     flex-direction: column;
     
 }
+
+button  img {
+    display: flex;
+    justify-content: center;
+
+width: 50px;
+border-radius: 50%;
+
+
+}
+
 button:hover {
-    width: 50px;
-    height: 50px;
+    /* width: 50px;
+    height: 50px; */
     transform: rotate(360deg);
 }
 button{
-    height: 50px;
+    /* height: 50px;
     width: 50px;
-    border-radius: 50%;
+    border-radius: 50%; */
     margin: 10px;
-    background-color: #3c6bb3;
-    color: #82c3f7;
+    background-color: white;
+    
+    /* color: #82c3f7; */
     padding: px;
     transition: width .5s, height .5s, transform .25s;
 }
@@ -79,16 +104,16 @@ footer {
     background-color: #7798d9;
     height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color: #4b6cb7;
     /* position: absolute;
     bottom: 0; */
 }
-.social-media{
+/* .social-media{
 display: flex;
 align-items: center;
-}
+} */
 
 
 
