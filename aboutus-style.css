@@ -89,9 +89,9 @@ body {
 
 #profile-cards {
     padding: 20px;
-    align-items: center;
     background-color: #4B6CB7;
     border-radius: 16px;
+    max-height: 500px;
 }
 
 .profile-info {
@@ -109,7 +109,6 @@ body {
     z-index: 1;
 }
 
-
 /* Start of footer */
 footer {
     /* background-color: #7798d9; */
@@ -119,9 +118,10 @@ footer {
     justify-content: space-around;
     align-items: center;
     color: #4b6cb7;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 70px;
 }
 
 .social-media{
