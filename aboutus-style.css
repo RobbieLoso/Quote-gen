@@ -51,6 +51,7 @@ body {
     line-height: 0;
     transform: rotate(180deg);
     opacity: 0.5;
+    z-index: -1;
 }
 
 .custom-shape-divider-top svg {
