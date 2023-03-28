@@ -29,6 +29,7 @@
 a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 /* END OF NAVBAR SECTION*/
 
@@ -127,6 +128,10 @@ body {
     text-align: center;
 }
 
+p {
+    font-weight: bold;
+}
+
 .headshot-img {
     position: relative;
     bottom: 71px;
@@ -139,8 +144,7 @@ body {
 
 /* Start of footer */
 footer {
-    /* background-color: #7798d9; */
-    background: linear-gradient(10deg,#4B6CB7, #5F2C82);
+    background: linear-gradient(10deg,#8da8e9, #cba7e2);
     height: 80px;
     display: flex;
     justify-content: space-around;
