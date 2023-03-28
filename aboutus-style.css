@@ -1,17 +1,72 @@
+/* NAVBAR SECTION */
 .top-banner {
+    max-width: 100%;
     display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-    background-color: #eeeeee;
+    background-color: #f1f1f1;
 }
 
+.logo {
+    height: 70px;
+    margin-left: 5%;
+}
+
+.quotebook-icon {
+    width: 60%;
+    padding-top: 15px;
+}
+
+.navbar {
+    margin-right: 5%;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* END OF NAVBAR SECTION*/
+
+/* About us Introduction Body */
+
+body {
+    max-width: 100%;
+    margin-top: 0px;
+}
+
+.profile-cards {
+    max-width: 100%;
+    display: flex;
+}
+
+.headshots {
+    max-width: 100%;
+    display: flex;
+}
+
+img {
+    
+}
+
+
+/* Start of footer */
 footer {
-    background-color: #7798d9;
+    /* background-color: #7798d9; */
+    background: linear-gradient(10deg,#4B6CB7, #5F2C82);
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #4b6cb7;
-    /* position: absolute;
-    bottom: 0; */
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    }
+
+#github-logo{
+    height: 50px;
+}
+#linkedin-logo{
+    height: 65px;
 }
