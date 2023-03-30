@@ -1,9 +1,16 @@
- /* Top section */
+body{
+    background-image: url(files/pictures/gradient-blue-white.jpg);
+}
+
+
+
+/* Top section */
 .top-banner {
     display: flex;
         justify-content: space-between;
         align-items: center;
         max-width: 100%;
+        background: none;
     background-color: #eeeeee;
 }
 
@@ -17,8 +24,6 @@
     width: 60%;
     padding-top: 15px;
 }
-/* I saw on figma that the 'Quotebook' logo was an image. 
-Do you think that it's possible to import that so it shows up exactly as you had it on figma? */
 
 .navbar{
     margin-right: 5%;
@@ -38,9 +43,19 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-     height: 500px;
      color: white;
+     height: auto;
+     margin-top: 5%;
 }
+
+#quotation-mark1 {
+    width: 100px;
+    position: relative;
+bottom: 70px;    
+right: 50px;
+transform: scaleX(-1);
+}
+
 
 .interact-buttons-section {
     display: flex;
@@ -49,6 +64,7 @@ a {
 
 .interact-buttons{
      border-radius: 50%;
+     margin-top: 50%;
 }
 
 
@@ -61,44 +77,69 @@ button  img {
 button img:hover {
     transition: transform .25s ease;
     transform: scale(1.25);
+    box-shadow: 10px 10px 5px black;
+}
+
+button:active{
+    transform: scale(.95);
 }
 
 button{
     background: none;
     border: none;
-    margin-top: ;
-    transition: width 1s, height 1s, transform 1s;
+    /* margin-top: ; */
+    transition: width 1s, height 1s, transform 0s;
 }
 
 .quote-card {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     border: none;
     border-radius: 5%;
     background-image: linear-gradient(to right, #cfe2f3 , #748dc5 ) ;
-    width: 50%;
-    height: 95%;
-    box-shadow: 10px 10px 5px gray;
+    width: 40%;
+    height: 500px;
+    box-shadow: 10px 10px 5px black;
 }
+
 
 .quote-author {
     display: flex;
     justify-content: end;
+}
+.card-buttons{
+    
+
+}
+.quotation-mark2 {
+    width: 100px;
+    position: relative;
+    top: 70px;    
+    left: 95%;
 }
 
 .forward-button-section{
     display: flex;
     justify-content: center;
 }
+#forward-button{
+    position: relative;
+    top: 50px;
+    left: 150px;
+    background: none;
+    border-radius: 50%;
+}
+.forward-button{
 
-
+}
 
 /* Footer section */
-/* Need to remember how to make it snap to the bottom of the page.... i forgot. */
-/* I'm still trying to figure out the snap part. I added absolute positioning but i dont think thats helping */
 footer {
-    background-color: #7798d9;
+    background-color: #d4dcef;
     height: 80px;
     display: flex;
     flex-direction: column;
@@ -110,10 +151,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-/* .social-media{
-display: flex;
-align-items: center;
-} */
 
 
 
