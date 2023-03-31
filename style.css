@@ -149,9 +149,10 @@ footer {
     justify-content: center ;
     align-items: center;
     color: black;
-    position: absolute;
+    position: relative;
+    margin-top: 70px;
     bottom: 0;
-    width: 99%;
+    width: 100%;
 }
 
 
