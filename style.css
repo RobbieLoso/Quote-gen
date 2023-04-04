@@ -8,13 +8,14 @@
     font-weight: bold;
  }
 /* Top section */
-.top-banner {
-    display: flex;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 100%;
-}
 
+.top-banner {
+    margin-bottom: 2%;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo {
     height: 70px;
@@ -26,19 +27,26 @@
     padding-top: 15px;
 }
 
-.navbar{
+.navbar {
     margin-right: 5%;
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
 }
 
-
-
-a { 
-    color: black;
+a {
+    margin-right: 45px;
     text-decoration: none;
-    padding-left: 10px;
+    color: black;
+    font-weight: bold;
 }
 
-
+body {
+    margin: 0;
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
 
 /* Quote box section */
 .main-quotebox{
@@ -154,6 +162,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-
-
