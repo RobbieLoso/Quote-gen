@@ -49,6 +49,58 @@ body {
 }
 
 /* Quote box section */
+
+.color-settings{
+    background-image: linear-gradient(to right, #cfe2f3 , #748dc5 ) ;
+    height: 350px;
+    width: 250px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px;
+    font-size: large;
+}
+.font-color-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.background-color-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.background-color{
+    display: flex;
+    justify-content: space-between;
+    display: block;
+}
+
+.color-button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+#orange-font, #orange-background {
+    background-color: #f3a183;
+}
+#blue-font, #blue-background{
+    background-color: #348ac7;
+}
+
+#gray-font, #gray-background{
+    background-color: #859398;
+}
+
+#yellow-font, #yellow-background{
+    background-color: #ffeb9c;
+}
+
+#green-font, #green-background{
+    background-color: #71b280;
+}
+
 .main-quotebox{
     display: flex;
     justify-content: space-around;
