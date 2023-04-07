@@ -6,10 +6,10 @@ function genQuote() {
     .then(data => {
         console.log(data);
     })
+
+    let randomQuote = Math.floor(Math.random() * (quotes.length))
+    document.getElementById("quote-font").innerHTML = '${quotes[randomQuote].content}';
 }
-
-
-
 
 
 function orangeFont(){
