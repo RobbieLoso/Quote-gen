@@ -4,10 +4,10 @@ function genQuote() {
     fetch("https://api.quotable.io/random")
     .then(res => res.json())
     .then(data => {
-        quoteGenerator.push(data)
-        console.log(genQuote());
+        console.log(data);
     })
 }
+
 
 
 
