@@ -1,14 +1,13 @@
-let temp1 = [];
+let quoteGenerator = [];
 
 function genQuote() {
-    fetch("https://api.quotable.io/random") 
+    fetch("https://api.quotable.io/random")
     .then(res => res.json())
     .then(data => {
-        console.log(data);
+        quoteGenerator.push(data)
+        console.log(genQuote());
     })
 }
-
-
 
 
 
@@ -34,7 +33,7 @@ function greenFont(){
 
 
 function orangeBackground(){
-    document.getElementById('orange-background').style.backgroundColor='red'
+    document.getElementById('quote-card').style.backgroundColor='red'
 }
 function blueBackground(){
     
