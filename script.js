@@ -33,11 +33,12 @@ function greenFont(){
 
 
 
-function orangeBackground(){
-    document.getElementsByClassName('quote-card').style.background-Image(linear-gradient(to right, #f8d776 ,#f3a085))
-}
-function blueBackground(){
+function orangeBackground() {
     
+}
+
+function blueBackground(){
+
 }
 function grayBackground(){
     
