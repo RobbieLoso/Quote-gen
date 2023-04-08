@@ -4,12 +4,19 @@ function genQuote() {
     fetch("https://api.quotable.io/random")
     .then(res => res.json())
     .then(data => {
-        console.log(data);
-    })
-
-    let randomQuote = Math.floor(Math.random() * (quotes.length))
-    document.getElementById("quote-font").innerHTML = '${quotes[randomQuote].content}';
+        quoteGenerator = data.content
+        document.getElementById("quote-font").innerHTML = quoteGenerator
+    })    
 }
+function genQuote2() {
+    fetch("https://api.quotable.io/random")
+    .then(res => res.json())
+    .then(data => {
+        quoteGenerator = data.author
+        document.getElementById("quote-font2").innerHTML = quoteGenerator
+    })    
+}
+
 
 
 function orangeFont(){
