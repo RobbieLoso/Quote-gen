@@ -1,5 +1,3 @@
-let quoteGenerator = [];
-
 function genQuote() {
     fetch("https://api.quotable.io/random")
     .then(res => res.json())
@@ -18,7 +16,6 @@ function genQuote2() {
 }
 
 
-
 function orangeFont(){
     document.getElementById('quote-font').style.color = '#F3A183'
 }
@@ -34,8 +31,6 @@ function yellowFont(){
 function greenFont(){
     document.getElementById('quote-font').style.color = '#71b280'
 }
-
-
 
 
 
