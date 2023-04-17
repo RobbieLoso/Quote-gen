@@ -119,7 +119,7 @@ body {
 }
 
 
-.references-card {
+.refCard-wrapper {
     background-image: linear-gradient(to right, #cfe2f3 , #748dc5 ) ;
     height: 350px;
     width: 250px;
@@ -131,6 +131,9 @@ body {
     font-size: large;
 }
 
+.open-popup {
+    visibility: hidden;
+}
 
 .interact-buttons-section {
     display: flex;

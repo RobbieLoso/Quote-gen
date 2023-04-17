@@ -53,3 +53,11 @@ function yellowBackground(){
 function greenBackground(){
     
 }
+
+// SECTION FOR References Pop-up Menu
+
+const referencesPopup = getElementById('refCard-wrapper')
+
+function openPopup() {
+    referencesPopup.classList.add("open-popup");
+}
